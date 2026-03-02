@@ -13,12 +13,12 @@ A   = 0.7
 B   = 0.5
 
 def get_pow2_approx(x):
-    def hw_pow2(val):
-        val_int = np.floor(val)
-        val_frac = val - val_int
-        return (1.0 + val_frac) * (2.0 ** val_int)
-    term_neg = hw_pow2(-x)
-    term_pos = hw_pow2(x)
+    # def hw_pow2(val):
+        # val_int = np.floor(val)
+        # val_frac = val - val_int
+        # return (1.0 + val_frac) * (2.0 ** val_int)
+    term_neg = 2**(-x)
+    term_pos = 2**(x)
     return term_neg - term_pos
 
 def run_ideal_model(stimulus_array):
