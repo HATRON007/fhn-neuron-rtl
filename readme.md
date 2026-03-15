@@ -11,7 +11,7 @@ The design was synthesized for a Xilinx Artix-7 FPGA, utilizing native Block RAM
 
 ---
 
-## Technical Highlights
+## ⚙️ Technical Highlights
 
 ### 1. Multiplierless Datapath (Shift-and-Add)
 
@@ -43,7 +43,7 @@ After the initial 5-cycle pipeline fill, throughput reaches **1 neuron update pe
 
 ---
 
-## Synthesis Results
+## 📊 Synthesis Results
 
 *Target Architecture: Xilinx Artix-7*
 
@@ -61,7 +61,7 @@ After the initial 5-cycle pipeline fill, throughput reaches **1 neuron update pe
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
     .
     ├── docs/                             # Reference materials and standards
@@ -85,7 +85,7 @@ After the initial 5-cycle pipeline fill, throughput reaches **1 neuron update pe
 
 ---
 
-## Simulation and Verification
+## 🛠️ Simulation and Verification
 
 ### Prerequisites
 
@@ -107,7 +107,7 @@ The analysis script runs the same stimulus through a floating-point reference mo
 
 ---
 
-## References
+## 📖 References
 
 This hardware design is based on the architectural concepts and mathematical approximations proposed in:
 
